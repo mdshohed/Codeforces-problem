@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std; 
 
+const int mx = 2e6+5;
+int ara[mx];
+
 int main (){
     //freopen("in.txt", "r", stdin);
     int n;
