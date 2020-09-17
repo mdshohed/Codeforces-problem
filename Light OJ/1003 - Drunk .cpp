@@ -30,7 +30,6 @@ using namespace std;
 typedef long long ll;
 typedef pair<int,int> pii;
 
-
 const int MOD = 1e9+7;
 const int mx = 1e4+9;
 
@@ -38,7 +37,6 @@ map<string,int> mp;
 vector<int> adj[mx];
 int color[mx];
 bool cycle = false;
-
 
 void dfsvisit(int u){
     color[u] = 1;
