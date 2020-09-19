@@ -1,4 +1,5 @@
 /*
+Algorithm: DFS 
 input:
 2
 2
