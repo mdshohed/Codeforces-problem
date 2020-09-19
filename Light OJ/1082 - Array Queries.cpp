@@ -1,3 +1,11 @@
+/*
+Algorithm: segment tree
+input: 
+
+output: 
+
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
