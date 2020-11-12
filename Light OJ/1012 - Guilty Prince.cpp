@@ -41,11 +41,9 @@ typedef pair<int,int> pii;
 typedef map<string,int> mp;
 
 const int mod = 1e9+7;
-
 // direction array
 int fx[] = {0, 0, 1, -1, -1, -1, 1, 1};
 int fy[] = {1, -1, 0, 0, -1, 1, -1, 1};
-
 // king move
 int kx[] = {1, 1, 2, 2, -1, -1, -2, -2};
 int ky[] = {2, -2, 1, -1, 2, -2, 1, -1};
