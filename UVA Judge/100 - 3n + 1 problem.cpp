@@ -16,7 +16,6 @@ int cycle ( ll n ) {
     }
     return x;
 }
-
 int main() {
     ll a, b;
     while ( scanf( "%lld%lld", &a, &b) != EOF ) {
