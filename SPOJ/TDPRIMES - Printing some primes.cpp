@@ -2,7 +2,6 @@
 problem: Printing some primes
 algorithm: sieve 
 input:
-
 output:
 
 */
