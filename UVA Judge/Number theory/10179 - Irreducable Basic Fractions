@@ -1,0 +1,30 @@
+/**
+    problem: 10179 - Irreducable Basic Fractions 
+    algorithm: totient function
+*/
+
+#include <bits/stdc++.h>
+using namespace std;
+
+typedef long long ll;
+
+int main() {
+    freopen( "in.txt", "r", stdin );
+    ios::sync_with_stdio(false),cin.tie(nullptr);
+
+    ll n;
+    while( scanf( "%lld",&n) && n!=0) {
+        ll result = n;
+        for (ll i = 2; i*i<=n; i++) {
+            if ( n%i==0) {
+                while ( n%i==0) {
+                    n/=i;
+                }
+                result -= result/i;
+            }
+        }
+        if ( n>1) result -= result/n;
+        cout << result << endl;
+    }
+    return 0;
+}
