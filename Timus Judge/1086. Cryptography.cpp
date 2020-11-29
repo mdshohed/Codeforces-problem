@@ -1,6 +1,6 @@
 /**
     problem: 1086. Cryptography
-    algorithm: prime 
+    algorithm: prime
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -25,7 +25,7 @@ void sieve() {
 }
 
 int main() {
-    //read("in.txt");
+    freopen( "in.txt", "r", stdin); 
     ios::sync_with_stdio(false),cin.tie(nullptr);
 
     sieve();
