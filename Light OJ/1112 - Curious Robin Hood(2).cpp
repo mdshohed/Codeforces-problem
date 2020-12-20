@@ -1,6 +1,6 @@
 /**
     problem: 1112 - Curious Robin Hood 
-    algorithm: segment tree
+    algorithm: Binary Indexed Tree 
 */
 #include <bits/stdc++.h>
 
