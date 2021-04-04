@@ -23,3 +23,16 @@ int main() {
     cout << endl;
     return 0;
 }
+
+
+/*
+input: 
+2
+aazz
+3
+abcabcabz
+output: 
+azaz
+-1
+
+*/
