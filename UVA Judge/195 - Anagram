@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+typedef long long ll;
+
+int main() {
+    ios_base::sync_with_stdio(false),cin.tie(nullptr);
+    //freopen( "in.txt","r", stdin );
+
+    int t; cin >> t;
+    while (t--) {
+        string s;
+        cin >> s;
+        auto cmp= [](char a, char b)->bool{
+            if ( tolower(a)==tolower(b)) {
+                return a<b;
+            }
+            return  tolower(a)<tolower(b);
+        };
+        sort(s.begin(),s.end(),cmp);
+        do {
+            cout << s << endl;
+        }while (next_permutation(s.begin(),s.end(),cmp));
+    }
+    return 0;
+}
