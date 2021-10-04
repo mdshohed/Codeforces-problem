@@ -1,3 +1,8 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define all(x) (x).begin(), (x).end()
+
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
@@ -21,3 +26,16 @@ public:
         return ans;
     }
 };
+
+int main() {
+    freopen("in.txt", "r", stdin );
+    vector<string> a; 
+    string s; 
+    while (cin>>s) {
+        a.push_back(s);
+    } 
+    Solution x; 
+    s = x.longestCommonPrefix(a);
+    cout << s << endl; 
+    return 0;
+}
